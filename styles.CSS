@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background: #fff;
+    padding: 1em 0;
+    border-bottom: 1px solid #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #333;
+}
+
+header .try-free {
+    background: #ff0099;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 3em 0;
+    background: #f9f9f9;
+}
+
+.hero h2 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    color: #666;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero .cta-button {
+    background: #ff0099;
+    color: #fff;
+    padding: 0.75em 2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.hero-images img {
+    width: 100%;
+    max-width: 2000px;
+    margin-top: 2em;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+    background: #fff;
+}
+
+.stats .stat {
+    text-align: center;
+}
+
+.stats h3 {
+    color: #ff0099;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.stats p {
+    color: #666;
+    font-size: 1.2em;
+}
+
+.features {
+    padding: 3em 0;
+    background: #f9f9f9;
+}
+
+.features .feature {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.features img {
+    max-width: 1000px;
+    margin-bottom: 1em;
+    align: right;
+}
+
+.features h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.features p {
+    color: #666;
+    font-size: 1.2em;
+}
+
+.cta {
+    text-align: center;
+    padding: 3em 0;
+    background: #fff;
+}
+
+.cta h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 2em 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-brand,
+.footer-newsletter,
+.footer-contact {
+    flex: 1;
+    margin: 0 1em;
+}
+
+.footer-brand p {
+    margin: 1em 0;
+}
+
+.footer-newsletter h3 {
+    margin-bottom: 0.5em;
+}
+
+.footer-newsletter p {
+    margin-bottom: 1em;
+}
+
+.footer-newsletter form {
+    display: flex;
+}
+
+.footer-newsletter input[type="email"] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+}
+
+.footer-newsletter button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: #ff0099;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-contact p {
+    margin-bottom: 0.5em;
+}
+
+.footer-contact .social-media a {
+    margin-right: 1em;
+}
